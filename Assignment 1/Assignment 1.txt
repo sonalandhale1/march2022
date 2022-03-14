@@ -1,0 +1,508 @@
+1)Check the given number is EVEN or ODD?
+
+STEP 1: Start.
+
+STEP 2: Read a number from user to N.
+
+STEP 3: Divide the number by 2 and store the remainder in R.
+
+STEP 4: If R = O Then go to STEP 6.
+        else
+          
+
+STEP 5: Print “N is odd” go to STEP 7.
+
+STEP 6: Print “N is even”
+
+STEP 7: Stop.
+
+
+2) Write a Java Program to find the Factorial of given number?
+
+STEP 1: Start
+ 
+STEP 2: Declare Variable n, fact, i 
+
+STEP 3: Read number from User 
+
+STEP 4: Initialize Variable fact=1 and i=1 
+
+STEP 5: Repeat Until i<=number 
+  5.1   fact=fact*i 
+  5.2   i=i+1 
+
+STEP 6: Print fact 
+
+STEP 7: Stop
+
+
+First take input from user and store that value in variable named “n”. 
+Then we initialize a variable “Fact” with value 1 (i.e Fact=1) and variable i with value 1(i.e i=1). 
+Repeat next two STEPs until i is less than n.
+
+Multiply Fact with current value of i
+
+Increment i with 1
+
+At last, print the value of Fact.
+
+For eg,
+Let the input be 5.
+The equation that gets created by our algorithm is 5x4x3x2x1.
+So, The Factorial of 5 is 120(5x4x3x2x1).
+
+
+
+3) Find the Factorial of a number using Recursion?
+
+STEP 1: Start.
+
+STEP 2: Take input from user n.
+
+STEP 3: Function call
+        factorial(n).(goto the STEP 6)
+
+STEP 4: Print output.
+
+STEP 5: Stop.
+
+STEP 6: Check condition  if(n==1)
+                                return 1.
+                          else
+                               again call function until( n==1)
+                               factorial(n).
+
+
+4)Swap two numbers without using third variable approach.
+
+STEP 1: Start.
+
+STEP 2: Take input from user x, y.
+
+STEP 3: print the given input.
+
+STEP 4: Adding given numbers and store it into any one variable out of two 
+               x = x + y.
+
+STEP 5:  y= x - y.
+
+STEP 6:  x= x - y.
+
+STEP 7: PRINT x, y.
+
+STEP 8: END.
+
+
+Eg. suppose the numbers are
+
+x=10 ,y=15.
+
+adding  x and y store it into x.
+
+ x=10+15=25.
+
+subtraction will be happen
+y = x - y =25-15=10
+y=10;===========>number will be swapped
+
+x = x - y =25-10=15
+X=15============>number will be swapped
+
+
+
+5) How to check the given number is Positive or Negative in Java?
+
+STEP 1: Start.
+
+STEP 1: Declare a variable.
+
+STEP 2: Initialize the variable.
+
+STEP 3: Call a function to check whether the number is positive or negative.
+
+STEP 4: Use if else condition,
+        4.1)if the result is true it will print no is positive
+        4.2)if the result is false it print no is negative
+
+STEP 5: Stop.
+
+
+6) Write a Java Program to find whether given number is Leap year or NOT?
+ 
+STEP 1: Start.
+
+STEP 2: Declare a one variable X.
+
+STEP 3: Take a input from user and store it into declared variable.
+
+STEP 4:By using nested if else condition;
+
+       4.1) if (X%400==0||X%4==0 && X%100 !=0)
+            {
+             Print given input year is leap year
+            }
+              else
+           {
+            Print given year is not a leap year
+           }
+STEP 5: Stop.
+
+
+7)Write a Java Program to Print 1 To 10 Without Using Loop ?
+
+STEP 1: Start;
+
+STEP 2: Declare one variable and initialize it with 1;
+
+STEP 3: Calling the recursive function. Function name will be XYZ passing 
+       the argument as given no.
+
+STEP 4: logic should be in function we use recursion with if else.
+        XYZ(A)
+      {
+       if(x==11)
+        return 1;
+       else
+        print the given no.
+        XYZ(A++)=============>passing argument will be incremented A.
+      }
+
+STEP 5:Stop.
+
+
+8)Write a Java Program to print the digits of a given number?
+
+STEP 1: Start.
+
+STEP 2: Take input from user as number n & variable num.
+
+STEP 3:while(n!=0)
+       {
+        num=n%10;
+         n=n/10;
+         print the num; 
+       }
+STEP 4: Stop.
+ 
+
+9)Write a Java Program to print all the Factors of the Given number?
+
+STEP 1: Start.
+
+STEP 2: Take a input from user as num.
+
+STEP 3: appalying a loop.
+
+        for(i=1;i<=num;i++)
+          {
+           if(num%i==0)
+            print given i is the factorial of num.
+           else
+            print given i is not a factor of num. 
+          }
+
+STEP 4: Stop 
+
+
+10)Write a Java Program to find sum of the digits of a given number?
+
+
+STEP 1: Start.
+
+STEP 2: Give input from user as number n , another variable num.
+
+STEP 3: Take one variable name as a sum initialize as a 0;
+
+STEP 4:while(n!=0)
+       {
+        num=n%10;
+         sum=sum+num;
+         n=n/10;
+         
+       }
+
+STEP 5: Print sum .
+
+STEP 6: Stop.
+
+
+11)Write a Java algorithm to find the smallest of 3 numbers (a,b,c)?
+
+STEP 1: Start the programm.
+
+STEP 2: declare the three variables as a,b,c;
+
+STEP 3: takes input from user.
+
+STEP 4: applying nested loop in that condition,
+
+ 5:  if(a<b)
+         { 
+          if(b<c)
+           number a is smallest number.
+          else 
+           no a is not a smallest number
+         }
+
+         if(b<c)
+         { 
+          if(c<a)
+           number b is smallest number.
+          else 
+           no b is not a smallest number
+         }
+
+         if(c<a)
+         { 
+          if(a<b)
+           number c is smallest number.
+          else 
+           no c is not a smallest number
+         }
+
+STEP 6: Stop.
+
+
+
+
+13) Write a java program to Reverse a given number?
+
+STEP 1: Start the given program.
+
+STEP 2: enter the four digit num from user.
+
+STEP 3: declare the variable num1,num2,num3,num4.
+
+STEP 4: num1=num%10;
+        num2=num1%10;
+        num3=num2%10;
+        num4=num3%10;
+
+STEP 5:print the given number in reverse order
+
+       print num1,num2,num3,num4
+
+STEP 6: Stop.
+
+
+14)Write a Java Program to find GCD of two given numbers?
+
+STEP 1: Start the programm
+
+STEP 2: take two number num1,num2 from user, declare the one variable as i.
+
+STEP 3: applay the loop 
+
+STEP 4:for(i=1;num1%i==0 && num2%i==0;i++);
+
+STEP 5: print the i,GCD of given two number is i;
+
+STEP 6: Stop
+
+
+15)  Write a java program to LCM of TWO given number?
+
+STEP 1: Start the programm
+
+STEP 2: take two number num1,num2 from user, declare the one variable as i.
+
+STEP 3: applay the loop 
+
+STEP 4:for(i=1;num1%i==0 || num2%i==0;i++);
+
+STEP 5: print the i,LCM of given two number is i;
+
+STEP 6: Stop
+
+
+17)Check whether the Given Number is a Palindrome or NOT?
+
+
+STEP 1: Start the given program.
+
+STEP 2: Take the num from user.
+
+STEP 3: Declare the variable num,reminder,reverse=0;
+
+STEP 4: Declare variable n=num assign given number in declare variable;
+
+STEP 4: while(n!=0)
+        {
+         remainder=num%10;
+         reverse=reverse*10+remainder;
+         num=num/10;
+         
+        }
+
+
+STEP 5:if(reverse==num)
+        Print given number as palindrome.
+       else
+        Print given number is not palindrome
+
+
+
+STEP 6: Stop.
+
+
+18)Write a Java Program to print all the Prime Factors of the Given Number?
+
+STEP 1:Start
+
+STEP 2:take number as input from user.
+
+STEP 3:Entering loop 
+
+      for(i=2;i<num;i++)
+        {
+           while(num%i==0)
+         {
+           print i;
+          }
+         if(num>2)
+           print the num.
+        
+        }
+
+STEP 4: Stop the program.
+
+
+19)To print the following series EVEN number Series 2 4 6 8 10 12 14 16 .....?
+
+STEP 1: Start the program
+
+STEP 2: gives a input from user as num.
+
+STEP 3:initilize the variablen i=1.
+
+STEP 4:appalying a loop
+
+STEP 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2==0)
+         print the given num is  even.
+         print i. 
+       }
+
+STEP 6:Stop
+       
+
+20)To print the following series ODD number Series 1 3 5 7 9 11 13 ....?
+
+STEP 1: Start the program
+
+STEP 2: gives input from user as num
+
+STEP 3:initilize the variablen i=1.
+
+STEP 4:appalying a loop
+
+STEP 5:
+      for(i;i<=num;i++)
+        {
+         if(n%2!=0)
+         print the given number is odd 
+         print the i.
+        
+       }
+
+STEP 6:Stop
+
+ 
+
+
+
+
+ Homework Question:-
+Q1.For soccer  player class write down the data member and member function.
+
+
+       Class          :  Soccer
+       Data member    :  Player Name, Player number, point scored
+       Member function:  getPlayerData(), displayPlayerData(), getScored(),   
+			     displayScored()    
+
+Q2.  Write and flow chart to determine a student grade and indicate whether its failing or passing. 
+     The final grade is calculated as 4 marks physics, biology, chemistry, maths.
+   Solution:-   STEP1: Start the program
+		STEP2: Enter student name and roll number
+		STEP3: input marks physics, biology ,chemistry , maths 
+			Var ph,bio,chem,math
+		STEP4:  var total 
+			Total=ph+bio+chem+math
+		STEP5: var average 
+				Average=total/4
+		STEP6: If average  (avg>40) = passed
+			  Else failed  Grade C
+		STEP7: if average (avg>=60) = firstclass Grade A
+			Else if (avg>40 && avg<60) second class Grade B
+		STEP8:End
+
+Q3 Write and algorithms or flow chart for getting married.
+
+Solution:      STEP1: Start the program
+	       STEP2:Enter the age and Gender
+		      Var: age , Gender 
+	       STEP3:Enter marrital status
+			Var: marritalstatus
+	       STEP4: if maritalstatus==m
+			“You can not marry”
+	       STEP5: else if marritalstatus==u
+			 If gender==m
+					Age>21
+				“You can marry”
+		      Else if“you can not marry”
+		
+                      Else if gender==w
+					Age>18
+				“You can marry”
+                          Else You can not marry
+
+              STEP6:               else 
+		            “Invalid input”
+              STEP7:               End 
+			
+
+
+
+
+
+Q4 Write and algorithms or flow chart to post a letter.
+
+Solution:       STEP1: Start the program
+		STEP2: write the letter
+		STEP3: write down the receiver address
+		STEP4: Put it in envelope 
+		STEP5: paste a stamp sticker
+		STEP6: put it in a letter box
+		STEP7: End
+
+
+Q5. Write and algorithms or flow chart to catch a school bus.
+     
+Solution:       STEP1: Start the program
+		STEP2: wake up at early 
+		STEP3: get ready for the school
+		STEP4: go to school bus Stop
+		STEP5: catch the school bus
+		STEP6: End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
